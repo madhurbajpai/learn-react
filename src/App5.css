@@ -1,0 +1,54 @@
+.form-main{
+    margin-top: 10%;
+    margin-left: 40%;
+    border: 1px solid rgba(0, 0, 0, 0.35);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 50vh;
+    width: 50vh;
+}
+
+.form{
+    margin: 5px;
+    margin-top: 7%;
+    margin-left: 5%;
+}
+
+.name{
+    margin: 5px;
+    font-size: 25px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.104);
+    outline: none;
+}
+
+.reg{
+    margin-left: 30%;
+    margin-top: 7%;
+    font-size: 25px;
+    background-color: blueviolet;
+    color: white;
+    padding: 15px;
+    border: none;
+}
+.reg:hover{
+    background-color: rgb(104, 9, 194);
+    cursor: pointer;
+}
+
+.reg:active{
+    background-color: rgb(78, 6, 147);
+}
+
+.status{
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.errmesg{
+    color: red;
+    margin-left: 15px;
+}

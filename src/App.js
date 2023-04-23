@@ -27,7 +27,7 @@ function App() {
 
   return (
     <div className="App">
-      <Header />
+      <Header head='Record Keeping'/>
       <div className="">
         <Stack direction="row" spacing={2}>
           <TextField

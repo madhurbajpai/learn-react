@@ -1,0 +1,24 @@
+.simple{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.inp{
+    margin: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    outline: none;
+}
+
+.data{
+    text-align: center;
+}
+
+.d{
+    height: 50vh;
+    overflow-y: scroll;
+    width: 20vh;
+    overflow-x: hidden;
+}

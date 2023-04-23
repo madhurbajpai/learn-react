@@ -1,0 +1,87 @@
+.main-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid grey;
+    margin-top: 10vh;
+    height: 60vh;
+    width: 500px;
+    background-color: rgba(9, 37, 139, 0.637);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 9px;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.temp{
+    width: 200px;
+    height: 200px;
+    border: 4px solid white;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 70px;
+    background-color: navy;
+}
+
+.plus {
+    border: 4px solid white;
+    border-radius: 50%;
+    background-color: grey;
+    color: white;
+    font-size: 50px;
+    height: 90px;
+    width: 90px;
+    margin: 20px;
+    margin-top: 40px;
+}
+
+.minus {
+    border: 4px solid white;
+    border-radius: 50%;
+    background-color: grey;
+    color: white;
+    font-size: 50px;
+    height: 90px;
+    width: 90px;
+    margin: 20px;
+    margin-top: 40px;
+}
+
+.plus:hover{
+    cursor: pointer;
+    background-color: rgb(57, 55, 55);
+}
+
+.minus:hover{
+    cursor: pointer;
+    background-color: rgb(57, 55, 55);
+}
+
+.plus:active{
+    background-color: rgba(57, 55, 55, 0.297);
+}
+
+.minus:active{
+    background-color: rgba(57, 55, 55, 0.297);
+}
+
+.cold{
+    background-color: rgb(147, 203, 238);
+}
+
+.mod{
+    background-color: greenyellow;
+}
+
+.hot{
+    background-color: red;
+}
