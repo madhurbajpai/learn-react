@@ -26,7 +26,6 @@ const App5 = () => {
   }
 
   const handlersubmit = (event) => {
-        event.preventDefault();
         if(values.firstName && values.lastName && values.email) setField(true);
         setSubmitted(true);
   }

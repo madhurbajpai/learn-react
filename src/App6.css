@@ -1,0 +1,83 @@
+.questions{
+    background-color: rgb(0,191,255);
+    height: 97vh;
+}
+
+.quest{
+    display: flex;
+    border: 1px solid grey;
+    margin-top: 10vh;
+    height: 70vh;
+    width: 500px;
+    background-color: rgb(25,25,112);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 9px;
+    flex-direction: column;
+    margin-left: 35%;
+    margin-bottom: 20%;
+    color: white;
+}
+
+.score{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 50px;
+    border: 1px solid grey;
+    margin-top: 10vh;
+    height: 70vh;
+    width: 500px;
+    background-color: rgb(25,25,112);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 9px;
+    flex-direction: column;
+    margin-left: 35%;
+    margin-bottom: 20%;
+    color: white;
+}
+
+.quest-count{
+    text-align: center;
+    font-size: 15px;
+    margin: 10px;
+}
+
+.quest-text{
+    text-align: center;
+    text-shadow: 1px 1px 2px black, 0 0 1em rgb(255, 255, 255), 0 0 0.2em rgb(248, 248, 251);
+    font-size: 20px;
+}
+
+.answers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10%;
+    flex-direction: column;
+}
+
+.ans{
+    margin: 5px;
+    font-size: 20px;
+    border: 2px solid white;
+    width: 300px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: inherit;
+    color: white;
+    transition: 0.8s;
+}
+
+.ans:hover{
+    cursor: pointer;
+    color: rgb(15, 15, 92);
+    background-color: white;
+    font-weight: 700;
+}
+
+.ans:active{
+    cursor: pointer;
+    background-color: rgb(15, 15, 92);
+    color: white;
+    font-weight: 700;
+}
