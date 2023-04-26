@@ -11,4 +11,4 @@ import App5 from "./App5";
 import App6 from "./App6";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<Home />);
+root.render(<App />);

@@ -10,11 +10,24 @@
     background-color: blueviolet;
     color: white;
     height: 30px;
-    text-align: center;
     padding: 15px;
     font-size: 35px;
     width: 100%;
     text-shadow: 0 0 5px #F10D58, 0 0 10px #4578D5;
+}
+
+.t{
+  text-align: center;
+}
+
+.ico{
+  width: 15px;
+  margin-left: 10px;
+  /* background-color: #F10D58; */
+}
+
+.ico :hover{
+  cursor: pointer;
 }
 
 .data{
